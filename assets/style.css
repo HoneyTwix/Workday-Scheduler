@@ -1,0 +1,36 @@
+:root {
+    --primary: #6e7076;
+    --secondary: #2e3444;
+    --tertiary: #85ac4b;
+    --quaternary: #b06542;
+    --quinary: #d267da;
+}
+
+header h1 {
+    background-color: var(--secondary);
+    color: var(--quaternary);
+}
+
+.city,
+.search-input{
+    width: 15vw;
+    color: 004266;
+    background-color: var(--quaternary);
+
+}
+
+.search-input {
+    background-color: transparent;
+}
+
+.city:hover {
+    background-color: var(--tertiary);
+}
+
+.five-day {
+    background-color: var(--primary);
+}
+
+.five-day-card {
+    border: none;
+}
