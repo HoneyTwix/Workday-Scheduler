@@ -32,119 +32,93 @@
 
     <div class="container ">
       <!-- Timeblocks go here -->
-      <div class="row text-center" id="hour9">
-        <div class="col-2 border-top timeblock" id="hour9">
-          <h6 class="hours">9 AM</h6>
+      <div id="hour9" class="row time-block">
+        <div class="col-md-1 hour">
+            9 AM
         </div>
-        <div class="input-group col-8 border-top h-100" id="textArea">
-            <textarea id="addTask" class="form-control border-0 bg-transparent"></textarea>
-        </div>
-        <button type="button" class="saveBtn col-2 border-top text-center newTask" id="save">
-          <p>SAVED</p>
-        </button>
-      </div>
-
-      <div class="row text-center" id="hour10">
-        <div class="col-2 border-top timeblock" id="hour10">
-          <h6 class="hours">10 AM</h6>
-        </div>
-        <div class="input-group col-8 border-top h-100" id="textArea">
-          <textarea id="addTask" class="form-control border-0 bg-transparent newTask"></textarea>
-        </div>
-        <button type="button" class="saveBtn col-2 border-top text-center" id="save">
-          <p>SAVED</p>
-        </button>
-      </div>
-
-      <div class="row text-center" id="hour11">
-        <div class="col-2 border-top timeblock" id="hour11">
-          <h6 class="hours">11 AM</h6>
-        </div>
-        <div class="input-group col-8 border-top h-100" id="textArea">
-          <textarea id="addTask" class="form-control border-0 bg-transparent newTask"></textarea>
-        </div>
-        <button type="button" class="saveBtn col-2 border-top text-center" id="save">
-          <p>SAVED</p>
-        </button>
-      </div>
-
-      <div class="row text-center" id="hour12">
-        <div class="col-2 border-top timeblock" id="hour12">
-          <h6 class="hours">12 PM</h6>
-        </div>
-        <div class="input-group col-8 border-top h-100" id="textArea">
-          <textarea id="addTask" class="form-control border-0 bg-transparent newTask"></textarea>
-        </div>
-        <button type="button" class="saveBtn col-2 border-top text-center" id="save">
-          <p>SAVED</p>
-        </button>
-      </div>
-
-      <div class="row text-center" id="hour13">
-        <div class="col-2 border-top timeblock" id="hour13">
-          <h6 class="hours">1 PM</h6>
-        </div>
-        <div class="input-group col-8 border-top h-100" id="textArea">
-          <textarea id="addTask" class="form-control border-0 bg-transparent newTask"></textarea>
-        </div>
-        <button type="button" class="saveBtn col-2 border-top text-center" id="save">
-          <p>SAVED</p>
-        </button>
-      </div>
-
-      <div class="row text-center" id="hour14">
-        <div class="col-2 border-top timeblock" id="hour14">
-          <h6 class="hours">2 PM</h6>
-        </div>
-        <div class="input-group col-8 border-top h-100" id="textArea">
-          <textarea id="addTask" class="form-control border-0 bg-transparent newTask"></textarea>
-        </div>
-        <button type="button" class="saveBtn col-2 border-top text-center" id="save">
-          <p>SAVED</p>
-        </button>
-      </div>
-
-      <div class="row text-center" id="hour15">
-        <div class="col-2 border-top timeblock" id="hour15">
-          <h6 class="hours">3 PM</h6>
-        </div>
-        <div class="input-group col-8 border-top h-100" id="textArea">
-          <textarea id="addTask" class="form-control border-0 bg-transparent newTask"></textarea>
-        </div>
-        <button type="button" class="saveBtn col-2 border-top text-center" id="save">
-          <p>SAVED</p>
-        </button>
-      </div>
-
-      <div class="row text-center" id="hour16">
-        <div class="col-2 border-top timeblock" id="hour16">
-          <h6 class="hours">4 PM</h6>
-        </div>
-        <div class="input-group col-8 border-top h-100" id="textArea">
-          <textarea id="addTask" class="form-control border-0 bg-transparent newTask"></textarea>
-        </div>
-        <button type="button" class="saveBtn col-2 border-top text-center" id="save">
-          <p>SAVED</p>
-        </button>
-      </div>
-
-      <div class="row text-center" id="hour17">
-        <div class="col-2 border-top timeblock" id="hour17">
-          <h6 class="hours">5 PM</h6>
-        </div>
-        <div class="input-group col-8 border-top h-100" id="textArea">
-          <textarea id="addTask" class="form-control border-0 bg-transparent newTask"></textarea>
-        </div>
-        <button type="button" class="saveBtn col-2 border-top text-center" id="save">
-          <p>SAVED</p>
-        </button>
-      </div>
-
+        <textarea class="col-md-10 task">
+        </textarea>
+        <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
     </div>
-    <!-- End timeblocks -->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-    <script src="assets/js/script.js"></script>
-  </body>
+
+    <div id="hour10" class="row time-block">
+      <div class="col-md-1 hour">
+          10 AM
+      </div>
+      <textarea class="col-md-10 task">
+      </textarea>
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+
+<div id="hour11" class="row time-block">
+      <div class="col-md-1 hour">
+          11 AM
+      </div>
+      <textarea class="col-md-10 task">
+      </textarea>
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+
+<div id="hour12" class="row time-block">
+      <div class="col-md-1 hour">
+          12 PM
+      </div>
+      <textarea class="col-md-10 task">
+      </textarea>
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+
+<div id="hour13" class="row time-block">
+      <div class="col-md-1 hour">
+          1 PM
+      </div>
+      <textarea class="col-md-10 task">
+      </textarea>
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+
+<div id="hour14" class="row time-block">
+      <div class="col-md-1 hour">
+          2 PM
+      </div>
+      <textarea class="col-md-10 task">
+      </textarea>
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+
+<div id="hour15" class="row time-block">
+      <div class="col-md-1 hour">
+          3 PM
+      </div>
+      <textarea class="col-md-10 task">
+      </textarea>
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+
+<div id="hour16" class="row time-block">
+      <div class="col-md-1 hour">
+          4 PM
+      </div>
+      <textarea class="col-md-10 task">
+      </textarea>
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+
+<div id="hour17" class="row time-block">
+      <div class="col-md-1 hour">
+          5 PM
+      </div>
+      <textarea class="col-md-10 task">
+      </textarea>
+      <button class="btn saveBtn col-md-1"><i class="fas fa-save"></i></button>
+  </div>
+
+</div>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./assets/js/script.js"></script>
+</body>
+
 </html>
